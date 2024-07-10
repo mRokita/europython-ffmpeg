@@ -34,7 +34,6 @@ video_width, video_height, framerate = next(
 
 process1 = (
     ffmpeg.input(INPUT_FILE)
-    .video.filter("fps", framerate)
     .output("pipe:", format="rawvideo", pix_fmt="bgr24")
     .run_async(pipe_stdout=True)
 )

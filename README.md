@@ -1,11 +1,11 @@
 # Slides
 
-https://mrokita.github.io/pywaw-ffmpeg/index.html
+https://mrokita.github.io/europython-ffmpeg/index.html
 
 # Setup
 
 ```markdown
-git clone https://github.com/mRokita/pywaw-ffmpeg.git
+git clone https://github.com/mRokita/europython-ffmpeg.git
 ```
 
 ## Dependencies
